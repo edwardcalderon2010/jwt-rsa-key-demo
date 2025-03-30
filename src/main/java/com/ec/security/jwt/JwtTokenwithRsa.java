@@ -19,7 +19,7 @@ import io.jsonwebtoken.Jwts;
 public class JwtTokenwithRsa {
 
 	private static final long VALIDITY_IN_MILLISECONDS = 24 * 60 * 60 * 1000;// 24 hrs
-	private static final String ISSUER = "sudarshan";
+	private static final String ISSUER = "com.ec";
 	public static final String PUBLIC_KEY_FILE_PATH = "RSA/publicKey";
 	public static final String PRIVATE_KEY_FILE_PATH = "RSA/privateKey";
 
